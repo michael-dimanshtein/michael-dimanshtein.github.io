@@ -1,0 +1,22 @@
+{
+  "name": "michael-dimanshtein.github.io",
+  "version": "1.0.0",
+  "description": "personal website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michael-dimanshtein/michael-dimanshtein.github.io.git"
+  },
+  "author": "mikeD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michael-dimanshtein/michael-dimanshtein.github.io/issues"
+  },
+  "homepage": "https://github.com/michael-dimanshtein/michael-dimanshtein.github.io#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
