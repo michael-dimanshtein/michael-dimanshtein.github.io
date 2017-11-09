@@ -3,9 +3,16 @@ header{
     /* float: left; */
     width: 100%;
 }
-body{
+html,body{
     font-family: serif;
     font-size: 20px;
+    height: 100%;
+    margin: 0;
+}
+
+.footer,
+.push {
+  height: 50px;
 }
 
 #navbar {
@@ -14,7 +21,7 @@ body{
   }
 #navbar p{
     float: left;
-    display: block;
+    display: inline-block;
     color: gray;
     text-align: center;
     padding: 14px;
@@ -46,3 +53,10 @@ body{
   .sticky + .content {
     padding-top: 60px;
   }
+
+  .wrapper {
+    min-height: 100%;
+  
+    /* Equal to height of footer */
+    /* But also accounting for potential margin-bottom of last child */
+    margin-bottom: -50px;
