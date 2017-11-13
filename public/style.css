@@ -10,14 +10,18 @@ html,body{
     margin: 0;
 }
 
+
 .footer,
 .push {
   height: 50px;
+  background-color: gray;
+  text-align: center;
 }
 
 #navbar {
     overflow: hidden;
     background-color: #f7f7f7;
+    
   }
 #navbar p{
     float: left;
